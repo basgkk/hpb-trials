@@ -326,7 +326,7 @@ function about(){
   '<div class="sec"><h3>Grading</h3><p>ESMO levels of evidence run from I (randomised trials) to V, and grades of recommendation from A (strongly recommended) to E (never recommended). ESMO-MCBS scores the magnitude of clinical benefit of a drug. Surgical guidelines (Brescia, ERAS) report the certainty of evidence and the strength of the recommendation.</p></div>'+
   '<div class="sec"><h3>Conflicts of interest</h3><p>The curator is an investigator in several included trials, among them PREOPANC-2, PREOPANC-3, PUMP, TESLA and ENDURO. Disclosures: Tricumed (in-kind contribution to HAIP trials), Boston Scientific (speaker), Revolution Medicines (advisory board).</p></div>'+
   '<div class="sec"><h3>Corrections</h3><p>Spotted an error or a missing trial? Message <a href="https://x.com/basgrootkoerkam" target="_blank" rel="noopener">@basgrootkoerkam</a> on X.</p></div>'+
-  '<p class="small muted">Version of 19 November 2026, '+T.length+' trials. Your progress is stored on this device only.</p></div>';
+  '<p class="small muted">Version of 27 November 2026, '+T.length+' trials. Your progress is stored on this device only. Visits are counted anonymously with GoatCounter, without cookies or personal data.</p></div>';
 }
 function render(){
   var r=route(),h;
@@ -373,5 +373,7 @@ render();
 })();
 </script>
 <script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}</script>
+<script data-goatcounter="https://hpbtrials.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>window.addEventListener("load",function(){var s=(window.matchMedia&&matchMedia("(display-mode: standalone)").matches)||navigator.standalone===true;if(!s)return;var n=0,t=setInterval(function(){n++;if(window.goatcounter&&window.goatcounter.count){clearInterval(t);window.goatcounter.count({path:"home-screen-open",title:"Opened from home screen",event:true});}else if(n>20){clearInterval(t);}},500);});</script>
 </body>
 </html>
